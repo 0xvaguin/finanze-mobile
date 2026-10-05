@@ -8,6 +8,7 @@
     "android": "expo start --android",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.app.json",
+    "eas-build-pre-install": "npm config set legacy-peer-deps true",
     "test": "jest",
     "export:web": "expo export --platform web"
   },
